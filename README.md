@@ -16,3 +16,7 @@ type:
 
 Anytime you want to push to the remote type ```git push -u origin main```
 Anytime you want to pull from remote type ```git pull origin main``` 
+
+##Troubleshooting
+
+If everything is failing, you can check ```git status``` where you should see the branch you are own, which should be main, and all the changes to be committed
