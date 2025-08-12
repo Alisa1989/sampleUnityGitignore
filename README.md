@@ -1,10 +1,10 @@
-# How to save a project to github
+# How to save a project to GitHub
 
 Download the ```.gitignore``` file contained in this repository and place it in your directory, which will allow you not to save useless files and therefore reduce upload and download time
 
 Create your own repository on GitHub
 
-Open Windows powershell
+Open Windows PowerShell
 Navigate inside your project directory
 type:
 -	```git init``` to start a git repository locally
@@ -17,6 +17,6 @@ type:
 Anytime you want to push to the remote type ```git push -u origin main```
 Anytime you want to pull from remote type ```git pull origin main``` 
 
-##Troubleshooting
+## Troubleshooting
 
 If everything is failing, you can check ```git status``` where you should see the branch you are own, which should be main, and all the changes to be committed
