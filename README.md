@@ -1,4 +1,6 @@
-# How to save a project to GitHub
+# How to use GitHub for your Unity projects
+
+## Getting Started - Saving a project to Github
 
 Download the ```.gitignore``` file contained in this repository and place it in your directory, which will allow you not to save useless files and therefore reduce upload and download time
 
@@ -16,6 +18,12 @@ type:
 
 Anytime you want to push to the remote type ```git push -u origin main```
 Anytime you want to pull from remote type ```git pull origin main``` 
+
+## Pulling a project on a new device
+- open git bash
+- navigate to the folder where you will be saving your project using ```ls``` to find where you are and ```cd``` to enter folder
+- type ```git init``` - to initialize an empty git repository
+- type ```git clone [project link from your github repo]```
 
 ## Troubleshooting
 
